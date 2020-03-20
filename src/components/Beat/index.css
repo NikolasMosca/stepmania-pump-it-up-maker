@@ -1,0 +1,9 @@
+.Beat {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background: black;
+    color: white;
+    min-width: 50px!important;
+    text-align: center;
+}

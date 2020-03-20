@@ -1,0 +1,15 @@
+.Container {
+    margin-bottom: 20px;
+}
+
+.Container > .Header {
+    background: red;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.Container > .Main {
+    background: orange;
+    padding: 20px;
+    border: 2px solid black;
+}

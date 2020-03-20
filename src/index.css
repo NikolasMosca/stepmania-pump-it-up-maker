@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#audio {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Play, .Pause {
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  background: yellow;
+  cursor: pointer;
+}
+
+.PlayerBar {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  float: left;
+  background: yellow;
+  border: 2px solid black;
+}
+
+.OverlayPlayerBar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  background: red;
+  transition: 0.50s width linear;
+}
+
+[class*="col-"] { float: left; }
+.clearfix:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.col-lg-1 { width: 8.33%; }
+.col-lg-2 { width: 16.66%; }
+.col-lg-3 { width: 25%; } 
+.col-lg-4 { width: 33.33%; }
+.col-lg-5 { width: 41.66%; }
+.col-lg-6 { width: 50%; }
+.col-lg-7 { width: 58.33%; }
+.col-lg-8 { width: 66.66%; }
+.col-lg-9 { width: 75%; }
+.col-lg-10 { width: 83.33%; } 
+.col-lg-11 { width: 91.66%; }
+.col-lg-12 { width: 100%; }

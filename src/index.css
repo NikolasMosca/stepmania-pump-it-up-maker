@@ -12,35 +12,9 @@ code {
     monospace;
 }
 
-#audio {
-  width: 100%;
-  margin-top: 20px;
-}
-
-.Play, .Pause {
-  float: left;
-  padding: 20px;
-  margin: 20px;
-  background: yellow;
-  cursor: pointer;
-}
-
-.PlayerBar {
-  width: 100%;
-  height: 50px;
-  position: relative;
-  float: left;
-  background: yellow;
-  border: 2px solid black;
-}
-
-.OverlayPlayerBar {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 50px;
-  background: red;
-  transition: 0.50s width linear;
+.BeatViewer {
+  max-height: 400px;
+  overflow-y: scroll;
 }
 
 [class*="col-"] { float: left; }

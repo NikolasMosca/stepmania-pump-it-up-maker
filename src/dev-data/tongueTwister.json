@@ -1,0 +1,2052 @@
+[
+    {
+      "startTime": 837.123,
+      "endTime": 920.123,
+      "holdTime": 83
+    },
+    {
+      "startTime": 1345.906,
+      "endTime": 1425.906,
+      "holdTime": 80
+    },
+    {
+      "startTime": 1903.249,
+      "endTime": 1935.249,
+      "holdTime": 32
+    },
+    {
+      "startTime": 1880.249,
+      "endTime": 1935.249,
+      "holdTime": 55
+    },
+    {
+      "startTime": 2375.317,
+      "endTime": 2439.317,
+      "holdTime": 64
+    },
+    {
+      "startTime": 2890.243,
+      "endTime": 2945.243,
+      "holdTime": 55
+    },
+    {
+      "startTime": 2906.243,
+      "endTime": 2945.243,
+      "holdTime": 39
+    },
+    {
+      "startTime": 2897.243,
+      "endTime": 2945.243,
+      "holdTime": 48
+    },
+    {
+      "startTime": 3406.482,
+      "endTime": 3450.482,
+      "holdTime": 44
+    },
+    {
+      "startTime": 3398.482,
+      "endTime": 3450.482,
+      "holdTime": 52
+    },
+    {
+      "startTime": 3903.4,
+      "endTime": 3958.4,
+      "holdTime": 55
+    },
+    {
+      "startTime": 3899.4,
+      "endTime": 3958.4,
+      "holdTime": 59
+    },
+    {
+      "startTime": 4383.199,
+      "endTime": 4467.199,
+      "holdTime": 84
+    },
+    {
+      "startTime": 4929.191,
+      "endTime": 4976.191,
+      "holdTime": 47
+    },
+    {
+      "startTime": 5422.861999999999,
+      "endTime": 5481.861999999999,
+      "holdTime": 59
+    },
+    {
+      "startTime": 5417.861999999999,
+      "endTime": 5481.861999999999,
+      "holdTime": 64
+    },
+    {
+      "startTime": 5940.5740000000005,
+      "endTime": 5987.5740000000005,
+      "holdTime": 47
+    },
+    {
+      "startTime": 6441.028,
+      "endTime": 6493.028,
+      "holdTime": 52
+    },
+    {
+      "startTime": 6443.028,
+      "endTime": 6493.028,
+      "holdTime": 50
+    },
+    {
+      "startTime": 6441.028,
+      "endTime": 6493.028,
+      "holdTime": 52
+    },
+    {
+      "startTime": 6946.606,
+      "endTime": 7001.606,
+      "holdTime": 55
+    },
+    {
+      "startTime": 6945.606,
+      "endTime": 7001.606,
+      "holdTime": 56
+    },
+    {
+      "startTime": 7445.326,
+      "endTime": 7506.326,
+      "holdTime": 61
+    },
+    {
+      "startTime": 7947.023,
+      "endTime": 8011.023,
+      "holdTime": 64
+    },
+    {
+      "startTime": 8469.442000000001,
+      "endTime": 8521.442000000001,
+      "holdTime": 52
+    },
+    {
+      "startTime": 8977.021,
+      "endTime": 9025.021,
+      "holdTime": 48
+    },
+    {
+      "startTime": 8978.021,
+      "endTime": 9025.021,
+      "holdTime": 47
+    },
+    {
+      "startTime": 9483.526,
+      "endTime": 9531.526,
+      "holdTime": 48
+    },
+    {
+      "startTime": 9485.526,
+      "endTime": 9531.526,
+      "holdTime": 46
+    },
+    {
+      "startTime": 9986.524,
+      "endTime": 10042.524,
+      "holdTime": 56
+    },
+    {
+      "startTime": 9990.524,
+      "endTime": 10042.524,
+      "holdTime": 52
+    },
+    {
+      "startTime": 10505.41,
+      "endTime": 10549.41,
+      "holdTime": 44
+    },
+    {
+      "startTime": 10482.41,
+      "endTime": 10549.41,
+      "holdTime": 67
+    },
+    {
+      "startTime": 10998.528,
+      "endTime": 11054.528,
+      "holdTime": 56
+    },
+    {
+      "startTime": 12017.921,
+      "endTime": 12065.921,
+      "holdTime": 48
+    },
+    {
+      "startTime": 12519.895999999999,
+      "endTime": 12570.895999999999,
+      "holdTime": 51
+    },
+    {
+      "startTime": 12515.895999999999,
+      "endTime": 12570.895999999999,
+      "holdTime": 55
+    },
+    {
+      "startTime": 13027.913,
+      "endTime": 13074.913,
+      "holdTime": 47
+    },
+    {
+      "startTime": 13022.913,
+      "endTime": 13074.913,
+      "holdTime": 52
+    },
+    {
+      "startTime": 13539.946,
+      "endTime": 13583.946,
+      "holdTime": 44
+    },
+    {
+      "startTime": 13531.946,
+      "endTime": 13583.946,
+      "holdTime": 52
+    },
+    {
+      "startTime": 14033.59,
+      "endTime": 14088.59,
+      "holdTime": 55
+    },
+    {
+      "startTime": 14537.714,
+      "endTime": 14593.714,
+      "holdTime": 56
+    },
+    {
+      "startTime": 15053.661999999998,
+      "endTime": 15101.661999999998,
+      "holdTime": 48
+    },
+    {
+      "startTime": 15565.353,
+      "endTime": 15608.353,
+      "holdTime": 43
+    },
+    {
+      "startTime": 15560.353,
+      "endTime": 15608.353,
+      "holdTime": 48
+    },
+    {
+      "startTime": 15567.353,
+      "endTime": 15608.353,
+      "holdTime": 41
+    },
+    {
+      "startTime": 16065.871,
+      "endTime": 16112.871,
+      "holdTime": 47
+    },
+    {
+      "startTime": 16070.871,
+      "endTime": 16112.871,
+      "holdTime": 42
+    },
+    {
+      "startTime": 16586.173000000003,
+      "endTime": 16629.173000000003,
+      "holdTime": 43
+    },
+    {
+      "startTime": 16585.173000000003,
+      "endTime": 16629.173000000003,
+      "holdTime": 44
+    },
+    {
+      "startTime": 17087.442,
+      "endTime": 17134.442,
+      "holdTime": 47
+    },
+    {
+      "startTime": 17078.442,
+      "endTime": 17134.442,
+      "holdTime": 56
+    },
+    {
+      "startTime": 17576.978000000003,
+      "endTime": 17632.978000000003,
+      "holdTime": 56
+    },
+    {
+      "startTime": 18582.483999999997,
+      "endTime": 18641.483999999997,
+      "holdTime": 59
+    },
+    {
+      "startTime": 18590.483999999997,
+      "endTime": 18641.483999999997,
+      "holdTime": 51
+    },
+    {
+      "startTime": 19096.946,
+      "endTime": 19156.946,
+      "holdTime": 60
+    },
+    {
+      "startTime": 19109.946,
+      "endTime": 19156.946,
+      "holdTime": 47
+    },
+    {
+      "startTime": 19608.226,
+      "endTime": 19661.226,
+      "holdTime": 53
+    },
+    {
+      "startTime": 19614.226,
+      "endTime": 19661.226,
+      "holdTime": 47
+    },
+    {
+      "startTime": 20113.106,
+      "endTime": 20166.106,
+      "holdTime": 53
+    },
+    {
+      "startTime": 20113.106,
+      "endTime": 20166.106,
+      "holdTime": 53
+    },
+    {
+      "startTime": 20623.109,
+      "endTime": 20675.109,
+      "holdTime": 52
+    },
+    {
+      "startTime": 20611.109,
+      "endTime": 20675.109,
+      "holdTime": 64
+    },
+    {
+      "startTime": 21127.718,
+      "endTime": 21179.718,
+      "holdTime": 52
+    },
+    {
+      "startTime": 21131.718,
+      "endTime": 21179.718,
+      "holdTime": 48
+    },
+    {
+      "startTime": 21615.534,
+      "endTime": 21684.534,
+      "holdTime": 69
+    },
+    {
+      "startTime": 23658.735999999997,
+      "endTime": 23714.735999999997,
+      "holdTime": 56
+    },
+    {
+      "startTime": 24183.796000000002,
+      "endTime": 24227.796000000002,
+      "holdTime": 44
+    },
+    {
+      "startTime": 24175.796000000002,
+      "endTime": 24227.796000000002,
+      "holdTime": 52
+    },
+    {
+      "startTime": 24680.507,
+      "endTime": 24731.507,
+      "holdTime": 51
+    },
+    {
+      "startTime": 24676.507,
+      "endTime": 24731.507,
+      "holdTime": 55
+    },
+    {
+      "startTime": 25187.021,
+      "endTime": 25239.021,
+      "holdTime": 52
+    },
+    {
+      "startTime": 25695.632,
+      "endTime": 25746.632,
+      "holdTime": 51
+    },
+    {
+      "startTime": 25699.632,
+      "endTime": 25746.632,
+      "holdTime": 47
+    },
+    {
+      "startTime": 25695.632,
+      "endTime": 25746.632,
+      "holdTime": 51
+    },
+    {
+      "startTime": 26204.019,
+      "endTime": 26251.019,
+      "holdTime": 47
+    },
+    {
+      "startTime": 26708.072,
+      "endTime": 26760.072,
+      "holdTime": 52
+    },
+    {
+      "startTime": 26713.072,
+      "endTime": 26760.072,
+      "holdTime": 47
+    },
+    {
+      "startTime": 27217.535,
+      "endTime": 27265.535,
+      "holdTime": 48
+    },
+    {
+      "startTime": 27221.535,
+      "endTime": 27265.535,
+      "holdTime": 44
+    },
+    {
+      "startTime": 27721.139,
+      "endTime": 27769.139,
+      "holdTime": 48
+    },
+    {
+      "startTime": 27721.139,
+      "endTime": 27769.139,
+      "holdTime": 48
+    },
+    {
+      "startTime": 28226.264,
+      "endTime": 28278.264,
+      "holdTime": 52
+    },
+    {
+      "startTime": 28731.13,
+      "endTime": 28783.13,
+      "holdTime": 52
+    },
+    {
+      "startTime": 28739.13,
+      "endTime": 28783.13,
+      "holdTime": 44
+    },
+    {
+      "startTime": 29242.884,
+      "endTime": 29287.884,
+      "holdTime": 45
+    },
+    {
+      "startTime": 29232.884,
+      "endTime": 29287.884,
+      "holdTime": 55
+    },
+    {
+      "startTime": 29746.339,
+      "endTime": 29798.339,
+      "holdTime": 52
+    },
+    {
+      "startTime": 29741.339,
+      "endTime": 29798.339,
+      "holdTime": 57
+    },
+    {
+      "startTime": 30259.586000000003,
+      "endTime": 30302.586000000003,
+      "holdTime": 43
+    },
+    {
+      "startTime": 30253.586000000003,
+      "endTime": 30302.586000000003,
+      "holdTime": 49
+    },
+    {
+      "startTime": 30756.679,
+      "endTime": 30807.679,
+      "holdTime": 51
+    },
+    {
+      "startTime": 30747.679,
+      "endTime": 30807.679,
+      "holdTime": 60
+    },
+    {
+      "startTime": 31263.919,
+      "endTime": 31312.919,
+      "holdTime": 49
+    },
+    {
+      "startTime": 31260.919,
+      "endTime": 31312.919,
+      "holdTime": 52
+    },
+    {
+      "startTime": 31769.233,
+      "endTime": 31820.233,
+      "holdTime": 51
+    },
+    {
+      "startTime": 32275.762000000002,
+      "endTime": 32323.762000000002,
+      "holdTime": 48
+    },
+    {
+      "startTime": 32283.762000000002,
+      "endTime": 32323.762000000002,
+      "holdTime": 40
+    },
+    {
+      "startTime": 32276.762000000002,
+      "endTime": 32323.762000000002,
+      "holdTime": 47
+    },
+    {
+      "startTime": 32789.719,
+      "endTime": 32828.719,
+      "holdTime": 39
+    },
+    {
+      "startTime": 33279.674999999996,
+      "endTime": 33340.674999999996,
+      "holdTime": 61
+    },
+    {
+      "startTime": 33288.674999999996,
+      "endTime": 33340.674999999996,
+      "holdTime": 52
+    },
+    {
+      "startTime": 33790.467,
+      "endTime": 33846.467,
+      "holdTime": 56
+    },
+    {
+      "startTime": 33802.467,
+      "endTime": 33846.467,
+      "holdTime": 44
+    },
+    {
+      "startTime": 34295.755,
+      "endTime": 34351.755,
+      "holdTime": 56
+    },
+    {
+      "startTime": 34308.755,
+      "endTime": 34351.755,
+      "holdTime": 43
+    },
+    {
+      "startTime": 34801.498999999996,
+      "endTime": 34856.498999999996,
+      "holdTime": 55
+    },
+    {
+      "startTime": 35312.811,
+      "endTime": 35364.811,
+      "holdTime": 52
+    },
+    {
+      "startTime": 35321.811,
+      "endTime": 35364.811,
+      "holdTime": 43
+    },
+    {
+      "startTime": 35321.811,
+      "endTime": 35364.811,
+      "holdTime": 43
+    },
+    {
+      "startTime": 35826.772,
+      "endTime": 35869.772,
+      "holdTime": 43
+    },
+    {
+      "startTime": 35816.772,
+      "endTime": 35869.772,
+      "holdTime": 53
+    },
+    {
+      "startTime": 36323.413,
+      "endTime": 36374.413,
+      "holdTime": 51
+    },
+    {
+      "startTime": 36837.06,
+      "endTime": 36884.06,
+      "holdTime": 47
+    },
+    {
+      "startTime": 36844.06,
+      "endTime": 36884.06,
+      "holdTime": 40
+    },
+    {
+      "startTime": 37353.642,
+      "endTime": 37388.642,
+      "holdTime": 35
+    },
+    {
+      "startTime": 37335.642,
+      "endTime": 37388.642,
+      "holdTime": 53
+    },
+    {
+      "startTime": 37858.598,
+      "endTime": 37895.598,
+      "holdTime": 37
+    },
+    {
+      "startTime": 37848.598,
+      "endTime": 37895.598,
+      "holdTime": 47
+    },
+    {
+      "startTime": 38348.609,
+      "endTime": 38392.609,
+      "holdTime": 44
+    },
+    {
+      "startTime": 38344.609,
+      "endTime": 38392.609,
+      "holdTime": 48
+    },
+    {
+      "startTime": 38868.020000000004,
+      "endTime": 38916.020000000004,
+      "holdTime": 48
+    },
+    {
+      "startTime": 38868.020000000004,
+      "endTime": 38916.020000000004,
+      "holdTime": 48
+    },
+    {
+      "startTime": 38872.020000000004,
+      "endTime": 38916.020000000004,
+      "holdTime": 44
+    },
+    {
+      "startTime": 39373.398,
+      "endTime": 39413.398,
+      "holdTime": 40
+    },
+    {
+      "startTime": 39365.398,
+      "endTime": 39413.398,
+      "holdTime": 48
+    },
+    {
+      "startTime": 39881.575999999994,
+      "endTime": 39917.575999999994,
+      "holdTime": 36
+    },
+    {
+      "startTime": 40382.352999999996,
+      "endTime": 40426.352999999996,
+      "holdTime": 44
+    },
+    {
+      "startTime": 40387.352999999996,
+      "endTime": 40426.352999999996,
+      "holdTime": 39
+    },
+    {
+      "startTime": 40896.176,
+      "endTime": 40935.176,
+      "holdTime": 39
+    },
+    {
+      "startTime": 40895.176,
+      "endTime": 40935.176,
+      "holdTime": 40
+    },
+    {
+      "startTime": 40895.176,
+      "endTime": 40935.176,
+      "holdTime": 40
+    },
+    {
+      "startTime": 41394.422999999995,
+      "endTime": 41442.422999999995,
+      "holdTime": 48
+    },
+    {
+      "startTime": 41909.891,
+      "endTime": 41946.891,
+      "holdTime": 37
+    },
+    {
+      "startTime": 41898.891,
+      "endTime": 41946.891,
+      "holdTime": 48
+    },
+    {
+      "startTime": 41897.891,
+      "endTime": 41946.891,
+      "holdTime": 49
+    },
+    {
+      "startTime": 42410.208,
+      "endTime": 42458.208,
+      "holdTime": 48
+    },
+    {
+      "startTime": 42410.208,
+      "endTime": 42458.208,
+      "holdTime": 48
+    },
+    {
+      "startTime": 42918.313,
+      "endTime": 42963.313,
+      "holdTime": 45
+    },
+    {
+      "startTime": 42915.313,
+      "endTime": 42963.313,
+      "holdTime": 48
+    },
+    {
+      "startTime": 43423.295,
+      "endTime": 43468.295,
+      "holdTime": 45
+    },
+    {
+      "startTime": 43422.295,
+      "endTime": 43468.295,
+      "holdTime": 46
+    },
+    {
+      "startTime": 43936.604,
+      "endTime": 43977.604,
+      "holdTime": 41
+    },
+    {
+      "startTime": 43933.604,
+      "endTime": 43977.604,
+      "holdTime": 44
+    },
+    {
+      "startTime": 44433.002,
+      "endTime": 44482.002,
+      "holdTime": 49
+    },
+    {
+      "startTime": 44434.002,
+      "endTime": 44482.002,
+      "holdTime": 48
+    },
+    {
+      "startTime": 44944.042,
+      "endTime": 44988.042,
+      "holdTime": 44
+    },
+    {
+      "startTime": 44947.042,
+      "endTime": 44988.042,
+      "holdTime": 41
+    },
+    {
+      "startTime": 44944.042,
+      "endTime": 44988.042,
+      "holdTime": 44
+    },
+    {
+      "startTime": 45461.572,
+      "endTime": 45500.572,
+      "holdTime": 39
+    },
+    {
+      "startTime": 45458.572,
+      "endTime": 45500.572,
+      "holdTime": 42
+    },
+    {
+      "startTime": 45966.075000000004,
+      "endTime": 46009.075000000004,
+      "holdTime": 43
+    },
+    {
+      "startTime": 45967.075000000004,
+      "endTime": 46009.075000000004,
+      "holdTime": 42
+    },
+    {
+      "startTime": 46487.568999999996,
+      "endTime": 46518.568999999996,
+      "holdTime": 31
+    },
+    {
+      "startTime": 46468.568999999996,
+      "endTime": 46518.568999999996,
+      "holdTime": 50
+    },
+    {
+      "startTime": 46972.583999999995,
+      "endTime": 47024.583999999995,
+      "holdTime": 52
+    },
+    {
+      "startTime": 46979.583999999995,
+      "endTime": 47024.583999999995,
+      "holdTime": 45
+    },
+    {
+      "startTime": 47489.309,
+      "endTime": 47534.309,
+      "holdTime": 45
+    },
+    {
+      "startTime": 47487.309,
+      "endTime": 47534.309,
+      "holdTime": 47
+    },
+    {
+      "startTime": 47486.309,
+      "endTime": 47534.309,
+      "holdTime": 48
+    },
+    {
+      "startTime": 47997.377,
+      "endTime": 48045.377,
+      "holdTime": 48
+    },
+    {
+      "startTime": 48503.775,
+      "endTime": 48550.775,
+      "holdTime": 47
+    },
+    {
+      "startTime": 48506.775,
+      "endTime": 48550.775,
+      "holdTime": 44
+    },
+    {
+      "startTime": 49013.848999999995,
+      "endTime": 49060.848999999995,
+      "holdTime": 47
+    },
+    {
+      "startTime": 49016.848999999995,
+      "endTime": 49060.848999999995,
+      "holdTime": 44
+    },
+    {
+      "startTime": 49522.019,
+      "endTime": 49567.019,
+      "holdTime": 45
+    },
+    {
+      "startTime": 50029.11,
+      "endTime": 50076.11,
+      "holdTime": 47
+    },
+    {
+      "startTime": 50036.11,
+      "endTime": 50076.11,
+      "holdTime": 40
+    },
+    {
+      "startTime": 50540.268,
+      "endTime": 50588.268,
+      "holdTime": 48
+    },
+    {
+      "startTime": 50541.268,
+      "endTime": 50588.268,
+      "holdTime": 47
+    },
+    {
+      "startTime": 51044.559,
+      "endTime": 51096.559,
+      "holdTime": 52
+    },
+    {
+      "startTime": 51048.559,
+      "endTime": 51096.559,
+      "holdTime": 48
+    },
+    {
+      "startTime": 51549.169,
+      "endTime": 51597.169,
+      "holdTime": 48
+    },
+    {
+      "startTime": 51549.169,
+      "endTime": 51597.169,
+      "holdTime": 48
+    },
+    {
+      "startTime": 51550.169,
+      "endTime": 51597.169,
+      "holdTime": 47
+    },
+    {
+      "startTime": 52052.095,
+      "endTime": 52103.095,
+      "holdTime": 51
+    },
+    {
+      "startTime": 52563.644,
+      "endTime": 52611.644,
+      "holdTime": 48
+    },
+    {
+      "startTime": 52559.644,
+      "endTime": 52611.644,
+      "holdTime": 52
+    },
+    {
+      "startTime": 53078.522000000004,
+      "endTime": 53119.522000000004,
+      "holdTime": 41
+    },
+    {
+      "startTime": 53581.982,
+      "endTime": 53628.982,
+      "holdTime": 47
+    },
+    {
+      "startTime": 53583.982,
+      "endTime": 53628.982,
+      "holdTime": 45
+    },
+    {
+      "startTime": 54090.39,
+      "endTime": 54138.39,
+      "holdTime": 48
+    },
+    {
+      "startTime": 54592.052,
+      "endTime": 54644.052,
+      "holdTime": 52
+    },
+    {
+      "startTime": 54597.052,
+      "endTime": 54644.052,
+      "holdTime": 47
+    },
+    {
+      "startTime": 55113.38,
+      "endTime": 55156.38,
+      "holdTime": 43
+    },
+    {
+      "startTime": 55104.38,
+      "endTime": 55156.38,
+      "holdTime": 52
+    },
+    {
+      "startTime": 55613.53,
+      "endTime": 55661.53,
+      "holdTime": 48
+    },
+    {
+      "startTime": 55618.53,
+      "endTime": 55661.53,
+      "holdTime": 43
+    },
+    {
+      "startTime": 56109.380000000005,
+      "endTime": 56167.380000000005,
+      "holdTime": 58
+    },
+    {
+      "startTime": 56111.380000000005,
+      "endTime": 56167.380000000005,
+      "holdTime": 56
+    },
+    {
+      "startTime": 56638.296,
+      "endTime": 56680.296,
+      "holdTime": 42
+    },
+    {
+      "startTime": 56628.296,
+      "endTime": 56680.296,
+      "holdTime": 52
+    },
+    {
+      "startTime": 57140.148,
+      "endTime": 57185.148,
+      "holdTime": 45
+    },
+    {
+      "startTime": 57137.148,
+      "endTime": 57185.148,
+      "holdTime": 48
+    },
+    {
+      "startTime": 57669.799,
+      "endTime": 57713.799,
+      "holdTime": 44
+    },
+    {
+      "startTime": 58186.747,
+      "endTime": 58223.747,
+      "holdTime": 37
+    },
+    {
+      "startTime": 58184.747,
+      "endTime": 58223.747,
+      "holdTime": 39
+    },
+    {
+      "startTime": 58182.747,
+      "endTime": 58223.747,
+      "holdTime": 41
+    },
+    {
+      "startTime": 58691.045999999995,
+      "endTime": 58732.045999999995,
+      "holdTime": 41
+    },
+    {
+      "startTime": 58688.045999999995,
+      "endTime": 58732.045999999995,
+      "holdTime": 44
+    },
+    {
+      "startTime": 59182.504,
+      "endTime": 59229.504,
+      "holdTime": 47
+    },
+    {
+      "startTime": 59181.504,
+      "endTime": 59229.504,
+      "holdTime": 48
+    },
+    {
+      "startTime": 59713.814,
+      "endTime": 59749.814,
+      "holdTime": 36
+    },
+    {
+      "startTime": 60206.880999999994,
+      "endTime": 60254.880999999994,
+      "holdTime": 48
+    },
+    {
+      "startTime": 60210.880999999994,
+      "endTime": 60254.880999999994,
+      "holdTime": 44
+    },
+    {
+      "startTime": 60213.880999999994,
+      "endTime": 60254.880999999994,
+      "holdTime": 41
+    },
+    {
+      "startTime": 60711.558000000005,
+      "endTime": 60760.558000000005,
+      "holdTime": 49
+    },
+    {
+      "startTime": 61219.61,
+      "endTime": 61267.61,
+      "holdTime": 48
+    },
+    {
+      "startTime": 61209.61,
+      "endTime": 61267.61,
+      "holdTime": 58
+    },
+    {
+      "startTime": 61210.61,
+      "endTime": 61267.61,
+      "holdTime": 57
+    },
+    {
+      "startTime": 61725.172999999995,
+      "endTime": 61777.172999999995,
+      "holdTime": 52
+    },
+    {
+      "startTime": 61725.172999999995,
+      "endTime": 61777.172999999995,
+      "holdTime": 52
+    },
+    {
+      "startTime": 62243.587999999996,
+      "endTime": 62287.587999999996,
+      "holdTime": 44
+    },
+    {
+      "startTime": 62243.587999999996,
+      "endTime": 62287.587999999996,
+      "holdTime": 44
+    },
+    {
+      "startTime": 62240.587999999996,
+      "endTime": 62287.587999999996,
+      "holdTime": 47
+    },
+    {
+      "startTime": 62753.733,
+      "endTime": 62798.733,
+      "holdTime": 45
+    },
+    {
+      "startTime": 62746.733,
+      "endTime": 62798.733,
+      "holdTime": 52
+    },
+    {
+      "startTime": 63246.698,
+      "endTime": 63306.698,
+      "holdTime": 60
+    },
+    {
+      "startTime": 63761.389,
+      "endTime": 63816.389,
+      "holdTime": 55
+    },
+    {
+      "startTime": 64276.365999999995,
+      "endTime": 64323.365999999995,
+      "holdTime": 47
+    },
+    {
+      "startTime": 64777.527,
+      "endTime": 64829.527,
+      "holdTime": 52
+    },
+    {
+      "startTime": 64781.527,
+      "endTime": 64829.527,
+      "holdTime": 48
+    },
+    {
+      "startTime": 65291.884999999995,
+      "endTime": 65339.884999999995,
+      "holdTime": 48
+    },
+    {
+      "startTime": 65283.884999999995,
+      "endTime": 65339.884999999995,
+      "holdTime": 56
+    },
+    {
+      "startTime": 65798.882,
+      "endTime": 65846.882,
+      "holdTime": 48
+    },
+    {
+      "startTime": 65799.882,
+      "endTime": 65846.882,
+      "holdTime": 47
+    },
+    {
+      "startTime": 66314.291,
+      "endTime": 66358.291,
+      "holdTime": 44
+    },
+    {
+      "startTime": 66311.291,
+      "endTime": 66358.291,
+      "holdTime": 47
+    },
+    {
+      "startTime": 66801.076,
+      "endTime": 66864.076,
+      "holdTime": 63
+    },
+    {
+      "startTime": 67834.204,
+      "endTime": 67881.204,
+      "holdTime": 47
+    },
+    {
+      "startTime": 68342.951,
+      "endTime": 68391.951,
+      "holdTime": 49
+    },
+    {
+      "startTime": 68347.951,
+      "endTime": 68391.951,
+      "holdTime": 44
+    },
+    {
+      "startTime": 68861.804,
+      "endTime": 68910.804,
+      "holdTime": 49
+    },
+    {
+      "startTime": 68863.804,
+      "endTime": 68910.804,
+      "holdTime": 47
+    },
+    {
+      "startTime": 69372.16399999999,
+      "endTime": 69416.16399999999,
+      "holdTime": 44
+    },
+    {
+      "startTime": 69372.16399999999,
+      "endTime": 69416.16399999999,
+      "holdTime": 44
+    },
+    {
+      "startTime": 69866.17300000001,
+      "endTime": 69917.17300000001,
+      "holdTime": 51
+    },
+    {
+      "startTime": 70371.758,
+      "endTime": 70426.758,
+      "holdTime": 55
+    },
+    {
+      "startTime": 70898.609,
+      "endTime": 70937.609,
+      "holdTime": 39
+    },
+    {
+      "startTime": 71395.91200000001,
+      "endTime": 71442.91200000001,
+      "holdTime": 47
+    },
+    {
+      "startTime": 71388.91200000001,
+      "endTime": 71442.91200000001,
+      "holdTime": 54
+    },
+    {
+      "startTime": 71934.277,
+      "endTime": 71961.277,
+      "holdTime": 27
+    },
+    {
+      "startTime": 71913.277,
+      "endTime": 71961.277,
+      "holdTime": 48
+    },
+    {
+      "startTime": 71921.277,
+      "endTime": 71961.277,
+      "holdTime": 40
+    },
+    {
+      "startTime": 72417.12599999999,
+      "endTime": 72470.12599999999,
+      "holdTime": 53
+    },
+    {
+      "startTime": 72426.12599999999,
+      "endTime": 72470.12599999999,
+      "holdTime": 44
+    },
+    {
+      "startTime": 72920.67899999999,
+      "endTime": 72980.67899999999,
+      "holdTime": 60
+    },
+    {
+      "startTime": 72921.67899999999,
+      "endTime": 72980.67899999999,
+      "holdTime": 59
+    },
+    {
+      "startTime": 73420.197,
+      "endTime": 73488.197,
+      "holdTime": 68
+    },
+    {
+      "startTime": 74456.885,
+      "endTime": 74507.885,
+      "holdTime": 51
+    },
+    {
+      "startTime": 74452.885,
+      "endTime": 74507.885,
+      "holdTime": 55
+    },
+    {
+      "startTime": 74972.687,
+      "endTime": 75024.687,
+      "holdTime": 52
+    },
+    {
+      "startTime": 75485.07900000001,
+      "endTime": 75531.07900000001,
+      "holdTime": 46
+    },
+    {
+      "startTime": 75474.07900000001,
+      "endTime": 75531.07900000001,
+      "holdTime": 57
+    },
+    {
+      "startTime": 75480.07900000001,
+      "endTime": 75531.07900000001,
+      "holdTime": 51
+    },
+    {
+      "startTime": 75984.96100000001,
+      "endTime": 76048.96100000001,
+      "holdTime": 64
+    },
+    {
+      "startTime": 76498.93299999999,
+      "endTime": 76555.93299999999,
+      "holdTime": 57
+    },
+    {
+      "startTime": 76989.569,
+      "endTime": 77054.569,
+      "holdTime": 65
+    },
+    {
+      "startTime": 77516.13,
+      "endTime": 77561.13,
+      "holdTime": 45
+    },
+    {
+      "startTime": 78038.508,
+      "endTime": 78091.508,
+      "holdTime": 53
+    },
+    {
+      "startTime": 78043.508,
+      "endTime": 78091.508,
+      "holdTime": 48
+    },
+    {
+      "startTime": 78553.10800000001,
+      "endTime": 78603.10800000001,
+      "holdTime": 50
+    },
+    {
+      "startTime": 78554.10800000001,
+      "endTime": 78603.10800000001,
+      "holdTime": 49
+    },
+    {
+      "startTime": 79055.864,
+      "endTime": 79108.864,
+      "holdTime": 53
+    },
+    {
+      "startTime": 79064.864,
+      "endTime": 79108.864,
+      "holdTime": 44
+    },
+    {
+      "startTime": 79057.864,
+      "endTime": 79108.864,
+      "holdTime": 51
+    },
+    {
+      "startTime": 79569.425,
+      "endTime": 79625.425,
+      "holdTime": 56
+    },
+    {
+      "startTime": 80080.911,
+      "endTime": 80132.911,
+      "holdTime": 52
+    },
+    {
+      "startTime": 81109.123,
+      "endTime": 81152.123,
+      "holdTime": 43
+    },
+    {
+      "startTime": 81105.123,
+      "endTime": 81152.123,
+      "holdTime": 47
+    },
+    {
+      "startTime": 81623,
+      "endTime": 81672,
+      "holdTime": 49
+    },
+    {
+      "startTime": 82137.204,
+      "endTime": 82178.204,
+      "holdTime": 41
+    },
+    {
+      "startTime": 82139.204,
+      "endTime": 82178.204,
+      "holdTime": 39
+    },
+    {
+      "startTime": 82134.204,
+      "endTime": 82178.204,
+      "holdTime": 44
+    },
+    {
+      "startTime": 82631.18699999999,
+      "endTime": 82675.18699999999,
+      "holdTime": 44
+    },
+    {
+      "startTime": 83138.709,
+      "endTime": 83196.709,
+      "holdTime": 58
+    },
+    {
+      "startTime": 83144.709,
+      "endTime": 83196.709,
+      "holdTime": 52
+    },
+    {
+      "startTime": 84163.36899999999,
+      "endTime": 84215.36899999999,
+      "holdTime": 52
+    },
+    {
+      "startTime": 84166.36899999999,
+      "endTime": 84215.36899999999,
+      "holdTime": 49
+    },
+    {
+      "startTime": 84674.749,
+      "endTime": 84725.749,
+      "holdTime": 51
+    },
+    {
+      "startTime": 84682.749,
+      "endTime": 84725.749,
+      "holdTime": 43
+    },
+    {
+      "startTime": 85193.114,
+      "endTime": 85241.114,
+      "holdTime": 48
+    },
+    {
+      "startTime": 85205.114,
+      "endTime": 85241.114,
+      "holdTime": 36
+    },
+    {
+      "startTime": 85185.114,
+      "endTime": 85241.114,
+      "holdTime": 56
+    },
+    {
+      "startTime": 85700.371,
+      "endTime": 85750.371,
+      "holdTime": 50
+    },
+    {
+      "startTime": 85674.371,
+      "endTime": 85750.371,
+      "holdTime": 76
+    },
+    {
+      "startTime": 86190.449,
+      "endTime": 86261.449,
+      "holdTime": 71
+    },
+    {
+      "startTime": 86706.23700000001,
+      "endTime": 86769.23700000001,
+      "holdTime": 63
+    },
+    {
+      "startTime": 87235.001,
+      "endTime": 87281.001,
+      "holdTime": 46
+    },
+    {
+      "startTime": 87741.44,
+      "endTime": 87786.44,
+      "holdTime": 45
+    },
+    {
+      "startTime": 87737.44,
+      "endTime": 87786.44,
+      "holdTime": 49
+    },
+    {
+      "startTime": 88243.739,
+      "endTime": 88294.739,
+      "holdTime": 51
+    },
+    {
+      "startTime": 88759.959,
+      "endTime": 88807.959,
+      "holdTime": 48
+    },
+    {
+      "startTime": 88755.959,
+      "endTime": 88807.959,
+      "holdTime": 52
+    },
+    {
+      "startTime": 89268.57800000001,
+      "endTime": 89316.57800000001,
+      "holdTime": 48
+    },
+    {
+      "startTime": 89261.57800000001,
+      "endTime": 89316.57800000001,
+      "holdTime": 55
+    },
+    {
+      "startTime": 89771.275,
+      "endTime": 89818.275,
+      "holdTime": 47
+    },
+    {
+      "startTime": 89761.275,
+      "endTime": 89818.275,
+      "holdTime": 57
+    },
+    {
+      "startTime": 90278.36899999999,
+      "endTime": 90337.36899999999,
+      "holdTime": 59
+    },
+    {
+      "startTime": 90278.36899999999,
+      "endTime": 90337.36899999999,
+      "holdTime": 59
+    },
+    {
+      "startTime": 90803.26400000001,
+      "endTime": 90855.26400000001,
+      "holdTime": 52
+    },
+    {
+      "startTime": 91310.344,
+      "endTime": 91361.344,
+      "holdTime": 51
+    },
+    {
+      "startTime": 91310.344,
+      "endTime": 91361.344,
+      "holdTime": 51
+    },
+    {
+      "startTime": 91296.344,
+      "endTime": 91361.344,
+      "holdTime": 65
+    },
+    {
+      "startTime": 91840.658,
+      "endTime": 91892.658,
+      "holdTime": 52
+    },
+    {
+      "startTime": 92350.92700000001,
+      "endTime": 92402.92700000001,
+      "holdTime": 52
+    },
+    {
+      "startTime": 92350.92700000001,
+      "endTime": 92402.92700000001,
+      "holdTime": 52
+    },
+    {
+      "startTime": 92870.521,
+      "endTime": 92918.521,
+      "holdTime": 48
+    },
+    {
+      "startTime": 92873.521,
+      "endTime": 92918.521,
+      "holdTime": 45
+    },
+    {
+      "startTime": 93397.174,
+      "endTime": 93437.174,
+      "holdTime": 40
+    },
+    {
+      "startTime": 93377.174,
+      "endTime": 93437.174,
+      "holdTime": 60
+    },
+    {
+      "startTime": 93889.00099999999,
+      "endTime": 93937.00099999999,
+      "holdTime": 48
+    },
+    {
+      "startTime": 94387.805,
+      "endTime": 94443.805,
+      "holdTime": 56
+    },
+    {
+      "startTime": 94395.805,
+      "endTime": 94443.805,
+      "holdTime": 48
+    },
+    {
+      "startTime": 94399.805,
+      "endTime": 94443.805,
+      "holdTime": 44
+    },
+    {
+      "startTime": 94911.028,
+      "endTime": 94955.028,
+      "holdTime": 44
+    },
+    {
+      "startTime": 95405.49699999999,
+      "endTime": 95461.49699999999,
+      "holdTime": 56
+    },
+    {
+      "startTime": 95413.49699999999,
+      "endTime": 95461.49699999999,
+      "holdTime": 48
+    },
+    {
+      "startTime": 95926.36099999999,
+      "endTime": 95970.36099999999,
+      "holdTime": 44
+    },
+    {
+      "startTime": 95926.36099999999,
+      "endTime": 95970.36099999999,
+      "holdTime": 44
+    },
+    {
+      "startTime": 96437.818,
+      "endTime": 96489.818,
+      "holdTime": 52
+    },
+    {
+      "startTime": 96443.818,
+      "endTime": 96489.818,
+      "holdTime": 46
+    },
+    {
+      "startTime": 96945.008,
+      "endTime": 97001.008,
+      "holdTime": 56
+    },
+    {
+      "startTime": 96945.008,
+      "endTime": 97001.008,
+      "holdTime": 56
+    },
+    {
+      "startTime": 97456.78600000001,
+      "endTime": 97508.78600000001,
+      "holdTime": 52
+    },
+    {
+      "startTime": 97464.78600000001,
+      "endTime": 97508.78600000001,
+      "holdTime": 44
+    },
+    {
+      "startTime": 97991.407,
+      "endTime": 98035.407,
+      "holdTime": 44
+    },
+    {
+      "startTime": 97993.407,
+      "endTime": 98035.407,
+      "holdTime": 42
+    },
+    {
+      "startTime": 98496.78600000001,
+      "endTime": 98548.78600000001,
+      "holdTime": 52
+    },
+    {
+      "startTime": 98999.069,
+      "endTime": 99058.069,
+      "holdTime": 59
+    },
+    {
+      "startTime": 99006.069,
+      "endTime": 99058.069,
+      "holdTime": 52
+    },
+    {
+      "startTime": 99516.341,
+      "endTime": 99568.341,
+      "holdTime": 52
+    },
+    {
+      "startTime": 99523.341,
+      "endTime": 99568.341,
+      "holdTime": 45
+    },
+    {
+      "startTime": 99516.341,
+      "endTime": 99568.341,
+      "holdTime": 52
+    },
+    {
+      "startTime": 100015.78199999999,
+      "endTime": 100079.78199999999,
+      "holdTime": 64
+    },
+    {
+      "startTime": 100534.57699999999,
+      "endTime": 100587.57699999999,
+      "holdTime": 53
+    },
+    {
+      "startTime": 101043.84199999999,
+      "endTime": 101099.84199999999,
+      "holdTime": 56
+    },
+    {
+      "startTime": 101051.84199999999,
+      "endTime": 101099.84199999999,
+      "holdTime": 48
+    },
+    {
+      "startTime": 101051.84199999999,
+      "endTime": 101099.84199999999,
+      "holdTime": 48
+    },
+    {
+      "startTime": 101558.10500000001,
+      "endTime": 101610.10500000001,
+      "holdTime": 52
+    },
+    {
+      "startTime": 101550.10500000001,
+      "endTime": 101610.10500000001,
+      "holdTime": 60
+    },
+    {
+      "startTime": 102075.86,
+      "endTime": 102122.86,
+      "holdTime": 47
+    },
+    {
+      "startTime": 102566.476,
+      "endTime": 102630.476,
+      "holdTime": 64
+    },
+    {
+      "startTime": 103098.55,
+      "endTime": 103142.55,
+      "holdTime": 44
+    },
+    {
+      "startTime": 103091.55,
+      "endTime": 103142.55,
+      "holdTime": 51
+    },
+    {
+      "startTime": 103095.55,
+      "endTime": 103142.55,
+      "holdTime": 47
+    },
+    {
+      "startTime": 103617.038,
+      "endTime": 103652.038,
+      "holdTime": 35
+    },
+    {
+      "startTime": 103576.038,
+      "endTime": 103652.038,
+      "holdTime": 76
+    },
+    {
+      "startTime": 104108.823,
+      "endTime": 104164.823,
+      "holdTime": 56
+    },
+    {
+      "startTime": 104120.823,
+      "endTime": 104164.823,
+      "holdTime": 44
+    },
+    {
+      "startTime": 104632.674,
+      "endTime": 104672.674,
+      "holdTime": 40
+    },
+    {
+      "startTime": 104632.674,
+      "endTime": 104672.674,
+      "holdTime": 40
+    },
+    {
+      "startTime": 105137.054,
+      "endTime": 105172.054,
+      "holdTime": 35
+    },
+    {
+      "startTime": 105140.054,
+      "endTime": 105172.054,
+      "holdTime": 32
+    },
+    {
+      "startTime": 106120.642,
+      "endTime": 106192.642,
+      "holdTime": 72
+    },
+    {
+      "startTime": 106140.642,
+      "endTime": 106192.642,
+      "holdTime": 52
+    },
+    {
+      "startTime": 106640.182,
+      "endTime": 106702.182,
+      "holdTime": 62
+    },
+    {
+      "startTime": 106657.182,
+      "endTime": 106702.182,
+      "holdTime": 45
+    },
+    {
+      "startTime": 107165.61600000001,
+      "endTime": 107213.61600000001,
+      "holdTime": 48
+    },
+    {
+      "startTime": 107161.61600000001,
+      "endTime": 107213.61600000001,
+      "holdTime": 52
+    },
+    {
+      "startTime": 107169.61600000001,
+      "endTime": 107213.61600000001,
+      "holdTime": 44
+    },
+    {
+      "startTime": 107703.871,
+      "endTime": 107739.871,
+      "holdTime": 36
+    },
+    {
+      "startTime": 107703.871,
+      "endTime": 107739.871,
+      "holdTime": 36
+    },
+    {
+      "startTime": 108207.654,
+      "endTime": 108251.654,
+      "holdTime": 44
+    },
+    {
+      "startTime": 108208.654,
+      "endTime": 108251.654,
+      "holdTime": 43
+    },
+    {
+      "startTime": 108714.858,
+      "endTime": 108762.858,
+      "holdTime": 48
+    },
+    {
+      "startTime": 109228.842,
+      "endTime": 109272.842,
+      "holdTime": 44
+    },
+    {
+      "startTime": 109232.842,
+      "endTime": 109272.842,
+      "holdTime": 40
+    },
+    {
+      "startTime": 109229.842,
+      "endTime": 109272.842,
+      "holdTime": 43
+    },
+    {
+      "startTime": 109737.07500000001,
+      "endTime": 109785.07500000001,
+      "holdTime": 48
+    },
+    {
+      "startTime": 110242.342,
+      "endTime": 110294.342,
+      "holdTime": 52
+    },
+    {
+      "startTime": 110242.342,
+      "endTime": 110294.342,
+      "holdTime": 52
+    },
+    {
+      "startTime": 110742.97200000001,
+      "endTime": 110795.97200000001,
+      "holdTime": 53
+    },
+    {
+      "startTime": 110753.97200000001,
+      "endTime": 110795.97200000001,
+      "holdTime": 42
+    },
+    {
+      "startTime": 111270.319,
+      "endTime": 111318.319,
+      "holdTime": 48
+    },
+    {
+      "startTime": 111282.319,
+      "endTime": 111318.319,
+      "holdTime": 36
+    },
+    {
+      "startTime": 111274.319,
+      "endTime": 111318.319,
+      "holdTime": 44
+    },
+    {
+      "startTime": 111782.682,
+      "endTime": 111826.682,
+      "holdTime": 44
+    },
+    {
+      "startTime": 111782.682,
+      "endTime": 111826.682,
+      "holdTime": 44
+    },
+    {
+      "startTime": 112303.346,
+      "endTime": 112339.346,
+      "holdTime": 36
+    },
+    {
+      "startTime": 112286.346,
+      "endTime": 112339.346,
+      "holdTime": 53
+    },
+    {
+      "startTime": 112836.364,
+      "endTime": 112880.364,
+      "holdTime": 44
+    },
+    {
+      "startTime": 113351.89199999999,
+      "endTime": 113390.89199999999,
+      "holdTime": 39
+    },
+    {
+      "startTime": 113345.89199999999,
+      "endTime": 113390.89199999999,
+      "holdTime": 45
+    },
+    {
+      "startTime": 113350.89199999999,
+      "endTime": 113390.89199999999,
+      "holdTime": 40
+    },
+    {
+      "startTime": 113863.975,
+      "endTime": 113903.975,
+      "holdTime": 40
+    },
+    {
+      "startTime": 114366.874,
+      "endTime": 114414.874,
+      "holdTime": 48
+    },
+    {
+      "startTime": 114378.874,
+      "endTime": 114414.874,
+      "holdTime": 36
+    },
+    {
+      "startTime": 114370.874,
+      "endTime": 114414.874,
+      "holdTime": 44
+    },
+    {
+      "startTime": 114890.34999999999,
+      "endTime": 114922.34999999999,
+      "holdTime": 32
+    },
+    {
+      "startTime": 114882.34999999999,
+      "endTime": 114922.34999999999,
+      "holdTime": 40
+    },
+    {
+      "startTime": 115399.88900000001,
+      "endTime": 115435.88900000001,
+      "holdTime": 36
+    },
+    {
+      "startTime": 115395.88900000001,
+      "endTime": 115435.88900000001,
+      "holdTime": 40
+    },
+    {
+      "startTime": 115901.048,
+      "endTime": 115945.048,
+      "holdTime": 44
+    },
+    {
+      "startTime": 115898.048,
+      "endTime": 115945.048,
+      "holdTime": 47
+    },
+    {
+      "startTime": 116426.329,
+      "endTime": 116462.329,
+      "holdTime": 36
+    },
+    {
+      "startTime": 116412.329,
+      "endTime": 116462.329,
+      "holdTime": 50
+    },
+    {
+      "startTime": 116937.454,
+      "endTime": 116972.454,
+      "holdTime": 35
+    },
+    {
+      "startTime": 117445.5,
+      "endTime": 117484.5,
+      "holdTime": 39
+    },
+    {
+      "startTime": 117436.5,
+      "endTime": 117484.5,
+      "holdTime": 48
+    },
+    {
+      "startTime": 117448.5,
+      "endTime": 117484.5,
+      "holdTime": 36
+    },
+    {
+      "startTime": 117958.953,
+      "endTime": 117994.953,
+      "holdTime": 36
+    },
+    {
+      "startTime": 117949.953,
+      "endTime": 117994.953,
+      "holdTime": 45
+    },
+    {
+      "startTime": 118469.668,
+      "endTime": 118508.668,
+      "holdTime": 39
+    },
+    {
+      "startTime": 118468.668,
+      "endTime": 118508.668,
+      "holdTime": 40
+    },
+    {
+      "startTime": 118977.725,
+      "endTime": 119021.725,
+      "holdTime": 44
+    },
+    {
+      "startTime": 118973.725,
+      "endTime": 119021.725,
+      "holdTime": 48
+    },
+    {
+      "startTime": 119497.881,
+      "endTime": 119533.881,
+      "holdTime": 36
+    },
+    {
+      "startTime": 119486.881,
+      "endTime": 119533.881,
+      "holdTime": 47
+    }
+  ]

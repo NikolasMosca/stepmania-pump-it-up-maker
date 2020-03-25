@@ -1,0 +1,1 @@
+export const MAX_TIME_SONG = 120;

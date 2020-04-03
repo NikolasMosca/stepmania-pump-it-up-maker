@@ -20,7 +20,8 @@ type State = {
   currentBeat: number,
   refresh?: number,
   play: boolean,
-  result: string
+  result: string,
+  loading: boolean
 }
 
 type Properties = {}
@@ -34,7 +35,8 @@ class App extends PureComponent<Properties, State> {
       beats: Test,
       currentBeat: 0,
       play: false,
-      result: ''
+      result: '',
+      loading: false
     }; 
 
     document.addEventListener('keydown', ({ keyCode }) => {
@@ -106,6 +108,7 @@ class App extends PureComponent<Properties, State> {
     //Test lib 
 
     this.setState({
+      loading: true,
       file: file
     })
   }
@@ -125,15 +128,16 @@ class App extends PureComponent<Properties, State> {
     }
     let mt = new MusicTempo(audioData);
   
-    console.log('BUFFER', buffer)
+    /*console.log('BUFFER', buffer)
     console.log('BPM', mt.tempo);
-    console.log('BEATS', mt.beats);
+    console.log('BEATS', mt.beats);*/
 
     let file = this.state.file;
     file.bpm = mt.tempo;
     file.beats = mt.beats;
     this.setState({
-      file
+      file,
+      loading: false
     }, () => this.forceUpdate());
   }
 
@@ -148,24 +152,38 @@ class App extends PureComponent<Properties, State> {
         holdTime: 100
       }     
     })
-    console.log('tempo beats', tempoBeats, tempoBeats.length)
     const Song = new SmBuilder(file.fileName, MAX_TIME_SONG);
-    Song.setBPM(file.bpm);
-    console.log('bpm', beats.length, Song.getBPM(beats.length))
-    console.log('set difficult', Song.setDifficult('EASY'))
-    console.log('beat in ms', Song.getBeatInMilliseconds())
-
     let mergeBeats = tempoBeats.concat(beats);
-    Song.findBeats(mergeBeats).make();
-    let result = Song.generate();
+    let result = '';
+
+    Song.difficult.map(item => {
+      result += Song.setBPM(file.bpm)
+                    .setDifficult(item)
+                    .findBeats(mergeBeats)
+                    .make()
+                    .generate();
+    })
+    
     this.setState({
       result
     })
   }
 
+  copyToClipboard = () => {
+    const el = document.createElement('textarea');
+    el.value = this.state.result;
+    el.setAttribute('readonly', '');
+    el.style.position = 'absolute';
+    el.style.left = '-9999px';
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+  }
+
   render() {
       console.info('RENDER')
-      const { file, blob, beats, currentBeat, play, result } = this.state;
+      const { file, blob, beats, currentBeat, play, result, loading } = this.state;
       
       return (
           <div className="App">
@@ -175,7 +193,7 @@ class App extends PureComponent<Properties, State> {
             )}
 
             <Box title="Upload your song!" className="col-lg-6">
-              <input type="file" onChange={this.onChangeFile}/>
+              <input className="UploadSong" type="file" onChange={this.onChangeFile}/>
 
               {file && (
                 <Player file={file} play={play} update={this.updateState} />
@@ -196,12 +214,23 @@ class App extends PureComponent<Properties, State> {
               </div>   
             </Box>
 
-            <Box title="Beats" className="col-lg-12">
-              <button onClick={this.generateSmFile}>Generate SM File!</button>
+            <Box title="Beats" className="col-lg-6">
+              <div className="Button" onClick={this.generateSmFile}>Generate SM File!</div>
               <pre className="BeatViewer">{ JSON.stringify(beats, null, 2) }</pre>  
-              <pre>{ result }</pre>
             </Box>
 
+            <Box title="SM Generated" className="col-lg-6">
+              <div className="Button" onClick={this.copyToClipboard}>Copy to clipboard!</div>
+              <pre className="BeatViewer clearfix">
+                { result }
+              </pre> 
+            </Box>
+
+            {loading && (
+              <div className="LoadingOverlay">
+                <div>Loading song...</div>
+              </div>
+            )}
           </div>
       )
   }

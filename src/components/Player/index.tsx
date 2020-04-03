@@ -40,15 +40,18 @@ class Player extends PureComponent<Properties, State> {
     }
 
     render() {
-        const { file } = this.props;
+        const { file, play } = this.props;
         return (
             <div className="clearfix">
                 <audio 
                 id="audio" 
                 src={file.url}
                 ></audio>
-                <div className="Play" onClick={this.play}>Play</div>
-                <div className="Pause" onClick={this.pause}>Pause</div>
+                {play ? (
+                    <div className="Pause" onClick={this.pause}>Pause</div>
+                ) : (
+                    <div className="Play" onClick={this.play}>Play</div>
+                )}        
                 <div className="PlayerBar">
                     <div 
                         className="OverlayPlayerBar" 

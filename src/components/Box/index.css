@@ -3,13 +3,12 @@
 }
 
 .Container > .Header {
-    background: red;
+    background: black;
+    color: white;
     padding: 20px;
-    border: 2px solid black;
 }
 
 .Container > .Main {
-    background: orange;
     padding: 20px;
     border: 2px solid black;
 }

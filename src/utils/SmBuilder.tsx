@@ -3,7 +3,7 @@ export default class {
     songDuration: number //Number in seconds of the song
     bpm: number = 0 //Beat per minute of the song
     bpms: Array<number> = [] //List of bpm for every difficult
-    barList: Array<number> = [4, 8, 16, 32, 64] //Difficult bar list 
+    barList: Array<number> = [4, 8, 12, 16, 20] //Difficult bar list 
     level: Array<number> = [2, 4, 6, 10, 15] //Level for every difficulty
     difficult: Array<string> = [ //Name of levels
         'BEGINNER',
@@ -12,13 +12,17 @@ export default class {
         'HARD',
         'EXPERT'
     ]
-    tolerance: Array<number> = [50, 10, 50, 50, 50] //List of each tolerance
+    tolerance: Array<number> = [10, 10, 10, 10, 10] //List of each tolerance
     currentIndex: number = 0; //Current difficult that will be executed from script
     minHold: number = 250; //Minimum value for establish an hold note
     
     beats: Array<any> = []; //Current beats finded by findBeats
     notes: Array<string> = []; //Current notes
     emptyNote: string = '00000';
+
+    normalNote: string = '1';
+    holdNote: string = '2';
+    closeHoldNote: string = '3';
 
     constructor(title: string, duration: number) {
         console.log('SmBuilder: init')
@@ -71,44 +75,52 @@ export default class {
     setDifficult = (name: string) => {
         const index: number = this.difficult.findIndex(diff => diff === name);
         this.currentIndex = index;
-        return index;
+        return this;
     }
 
     //Set BPM to create notes
-    setBPM = (bpm: number) => this.bpm = bpm;
+    setBPM = (bpm: number) => { this.bpm = bpm; return this }
 
     //Find beats
     findBeats = (beats: Array<any>) => {
+        console.log('beats examined', beats)
         const msSongDuration = this.songDuration * 1000;
         const tolerance = this.getTolerance();
         const msBeat = this.getBeatInMilliseconds();
 
         //Reset beats
         this.beats = [];
+
         //Let's find all the metrics in my song...
         for(let ms = 0; ms < msSongDuration; ms += msBeat) {
 
             //Find if I have some notes registered for this beat...  
-            console.log(ms)
-            let findBeat: any = null;
+            let findBeat: any = [];
             for(let index = 0; index < beats.length; index++) {
                 let item = beats[index];
-                let { startTime, endTime } = item;
-                if(!item.used && ms >= (startTime - tolerance) && ms <= (endTime + tolerance)) {
-                    console.log('find!', ms, index)
-                    findBeat = item;
-                    beats[index].used = true;
-                    break;
+                let { startTime, endTime, holdTime } = item;
+
+                if(ms >= (startTime - tolerance) && ms <= (endTime + tolerance)) { 
+                    findBeat.push(item);
                 }
             }
-            /*let findBeat = beats.find(({ startTime , endTime }, index) => 
-                (ms >= (startTime - tolerance) && ms <= (endTime + tolerance))
-            )*/
 
-            this.beats.push(findBeat);
+            if(findBeat.length === 0) {
+                this.beats.push(null);
+            } else if(findBeat.length === 1) {
+                this.beats.push(findBeat[0]);
+            } else { //In case of multiple notes find the best note with the highest holdTime
+                findBeat = findBeat.sort((a: any, b: any) => {
+                    if(a.holdTime < b.holdTime) return 1;
+                    if(a.holdTime > b.holdTime) return -1;
+                    return 0;
+                })
+                this.beats.push(findBeat[0]);
+            }
+            
         }
 
-        this.beats.splice(this.beats.length - 1, 1)
+        //this.beats.splice(this.beats.length - 1, 1)
 
         console.log('BEATS FINDED FOR DIFFICULT ', this.getDifficult(), this.beats);
 
@@ -127,7 +139,22 @@ export default class {
 
         if(this.notes.length === 0) return notes;
         const previousNote = this.notes[ this.notes.length - 1 ];
-        console.log('CHECK PREVIOUS NOTE =>' ,previousNote)
+        console.log('%c CHECK PREVIOUS NOTE => ' + previousNote, 'color: orange;')
+
+        switch(previousNote) {
+            case '10000': //down-left
+                notes.splice(1, 1); //remove up-left
+            break;
+            case '01000': //up-left
+                notes.splice(0, 1); //remove down-left
+            break;
+            case '00010': //up-right
+                notes.splice(4, 1); //remove down-right
+            break;
+            case '00001': //down-right
+                notes.splice(3, 1); //remove up-right
+            break;
+        }
 
         return notes;
     }
@@ -143,11 +170,53 @@ export default class {
         return avaiableNotes[randomNote];
     }
 
+    //Manage hold notes 
+    holdNotes = () => {
+        const previousNote = this.notes[ this.notes.length - 1 ];
+        if(previousNote.includes(this.holdNote)) return this.emptyNote;
+        let note = this.getRandomNotes();
+        note = note.replace('1', this.holdNote);
+        console.log('NOTE HOLD', note);
+        return note;
+    }
+
+    //Check recursively if there is a hold note that doesn't close yet
+    checkIfCloseHold = () => { 
+        let index = this.notes.length - 1;
+        do {
+            if(index <= 0) return false;
+            if(this.notes[index].includes(this.closeHoldNote)) return false;
+            if(this.notes[index].includes(this.holdNote)) {
+                return this.notes[index]
+            }
+            index--;
+        } while(true)   
+    }
+
+    //Replace a note in a specific position (for closing hold notes)
+    replaceNote = (string: string, position: number, replace: string) => {
+        return string.substr(0, position) + replace+ string.substr(position + replace.length);
+    }
+
     //Make trace for the song
     make = () => {
+        const msBeat = this.getBeatInMilliseconds();
+
         this.beats.map((beat, index) => {
             if(beat) { //If there is a beat then I will create a random notes
                 let note = this.getRandomNotes();
+                if(beat.holdTime >= this.minHold) {
+                    console.log(
+                        '%c HOLD => ' + 
+                        beat.holdTime + ' => ' + 
+                        Math.round(beat.holdTime / msBeat), 
+                        'color: red;'
+                    )
+                    note = this.holdNotes();
+                } else {
+                    let holdNote = this.checkIfCloseHold();
+                    if(holdNote) note = holdNote.replace(this.holdNote, this.closeHoldNote);
+                }
                 this.notes.push(note);
             } else { //Else I will write an empty note
                 this.notes.push(this.emptyNote);
@@ -155,7 +224,7 @@ export default class {
             return true;
         })
 
-        console.log('NOTES GENERATED FOR DIFFICULT', this.getDifficult(), this.notes)
+        return this;
     }
 
     //Return all notes generated formatted for sm file
@@ -168,7 +237,11 @@ export default class {
     //Let's generate this sm file!
     generate() {
         let file = '';
-        file += this.getHeader();
+        if(this.currentIndex === 0) {
+            file += this.getHeader();     
+        } else {
+            file += "\n\n";
+        }    
         file += this.writeIntroTrace();
         file += this.getNotes();
         return file;
